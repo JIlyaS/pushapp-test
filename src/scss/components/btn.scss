@@ -1,0 +1,21 @@
+$white: #ffffff;
+$btn-color: #F1F1F5;
+$btn-text-color: #979898;
+$btn-active-background: #3469F2;
+
+.btn {
+  font-size: 15px;
+  line-height: 34px;
+  width: 54px;
+  background-color: $btn-color;
+  color: $btn-text-color;
+  border-radius: 10px;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+
+  &--active {
+    background-color: $btn-active-background;
+    color: $white;
+  }
+}

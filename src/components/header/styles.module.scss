@@ -1,0 +1,46 @@
+.header {
+  margin-top: 50px;
+
+  &__filterBlock {
+    width: 100%;
+    max-width: 856px;
+    padding: 14px 18px 16px;
+    margin: 0 auto;
+    background-color: #ffffff;
+  }
+}
+
+.tabs {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 856px;
+
+  &__list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    display: inline-block;
+    padding: 8px 20px;
+    user-select: none;
+    background-color: #E8E8E8;
+    color: #979898;
+    border-radius: 13px;
+    border-bottom-right-radius: initial;
+    border-bottom-left-radius: initial;
+    cursor: pointer;
+
+    &:first-child {
+      // border-bottom-left-radius: initial;
+    }
+
+    &Selected {
+      background-color: #ffffff;
+      color: #1D353D;
+    }
+  }
+
+}
